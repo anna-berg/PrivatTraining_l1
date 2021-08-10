@@ -8,8 +8,8 @@ public class GoldenFish extends Fishes implements Swimming {
         super(name);
     }
 
-    @Override
+/*    @Override
     public void swimm() {
         System.out.println("GoldenFish is swimming");
-    }
+    }*/
 }

@@ -9,7 +9,7 @@ public class Duck extends Birds implements Flying, MakeSound, Swimming {
         super(name);
     }
 
-    @Override
+/*    @Override
     public void fly() {
         System.out.println("Duck is flying");
     }
@@ -22,5 +22,5 @@ public class Duck extends Birds implements Flying, MakeSound, Swimming {
     @Override
     public void swimm() {
         System.out.println("Duck is swimming");
-    }
+    }*/
 }

@@ -7,9 +7,9 @@ public class Lion extends Cats implements MakeSound {
         super(name);
     }
 
-    @Override
+   /* @Override
     public String sound() {
         return "Ror";
     }
-
+*/
 }

@@ -33,7 +33,13 @@ public class Bike extends Vehicle{
     }
 
     BikeCategory bikeCategory = new BikeCategory();
-    bikeCategory.
+    public BikeCategory addBikes(){
+        bikeCategory.add("Mountain Bike");
+        bikeCategory.add("Town Bike");
+        bikeCategory.add("Extrime bike");
+
+        return bikeCategory;
+    }
 }
 
 // шаблон Делегирование - список великов может использовать только указанные методы ArrayList, но не все.

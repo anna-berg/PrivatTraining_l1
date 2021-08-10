@@ -8,7 +8,7 @@ public class Crow extends Birds implements Flying, MakeSound {
         super(name);
     }
 
-    @Override
+ /*   @Override
     public void fly() {
         System.out.println("Crow is flying");
     }
@@ -16,5 +16,5 @@ public class Crow extends Birds implements Flying, MakeSound {
     @Override
     public String sound() {
         return "croak";
-    }
+    }*/
 }
